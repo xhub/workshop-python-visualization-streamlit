@@ -51,4 +51,6 @@ st.markdown(f"Pandas dataframe for query '{new_query}'")
 
 
 if show_data:
-    st.dataframe(df_filtered, use_container_width=True)
+    st.dataframe(df_filtered)
+
+
